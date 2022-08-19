@@ -7,7 +7,7 @@ export default function App() {
   const [counter, setCounter] = useState(0)
   return (
     <View style={styles.container}>
-      <Text>{counter !== 10 ? counter : 'I love you'}</Text>
+      <Text style={{color:'red'}}>{counter !== 10 ? counter : 'I love you'}</Text>
       <Button
         style={{fontSize: 20, color: 'green'}}
         styleDisabled={{color: 'red'}}
