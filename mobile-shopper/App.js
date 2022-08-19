@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-//View is div
+//View is div - test
 export default function App() {
   return (
     <View style={styles.container}>
